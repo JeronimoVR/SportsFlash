@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 function CardComponent({cardTitle, cardText, cardButton,cardImage}) {
     return (
         <Card style={{ width: "18rem" }} className="mb-4 shadow">
-            <Card.Img variant="top" href="https://cdn.nba.com/manage/2024/06/celtics-defense-game-1.jpg" alt="imagen" />
+            <Card.Img variant="top" src={cardImage} alt="imagen" />
             <Card.Body>
                 <Card.Title>{cardTitle}</Card.Title>
                 <Card.Text>
