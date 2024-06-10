@@ -13,7 +13,7 @@ const cardsData = [
         cardButton: "Ver más",
     },
     {
-        cardImage: "https://via.placeholder.com/150",
+        cardImage: "https://th.bing.com/th?id=OIP.HbgeVhGpIYxg-OeQghWgQwHaEJ&w=197&h=113&c=7&o=6&pid=3.1",
         cardTitle: "Fútbol Internacional: Últimas noticias de Hoy",
         cardText:
             "Southgate discute el descarte de Grealish y Maddison, mientras Gibraltar logra un empate con Gales.",
@@ -29,7 +29,7 @@ const cardsData = [
 
     {
         cardImage:
-            "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0609%2Fr1343776_1296x518_5%2D2.jpg&w=1320&h=528&scale=crop&cquality=40&location=center&format=jpg",
+            "https://img.redbull.com/images/c_crop,x_0,y_0,h_2731,w_5462/c_fill,w_1350,h_675/q_auto,f_auto/redbullcom/2024/6/9/duvmmbyokxfnsopclojl/canadain-grand-prix-2024",
         cardTitle: "Verstappen gana en Canadá",
         cardText:
             "Verstappen vence a Norris para conseguir la victoria en un emocionante Gran Premio de Canadá en condiciones de pista mixtas",
