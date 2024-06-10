@@ -1,8 +1,8 @@
 import "./App.css";
 import React from "react";
-import NavbarCompoment from "./compoments/NavbarComponent";
-import FooterComponent from "./compoments/FooterComponent";
-import Home from "./pages/Home";
+import NavbarCompoment from "./components/NavbarComponent";
+import FooterComponent from "./components/FooterComponent";
+import Home from "./pages/Home/Home";
 import News from "./pages/News";
 import About from "./pages/About";
 import Soccer from "./pages/Sports/Soccer";
