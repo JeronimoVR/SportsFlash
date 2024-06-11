@@ -1,0 +1,14 @@
+.video-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-items: center;
+    margin: 28px;
+}
+
+.video {
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

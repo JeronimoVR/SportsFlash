@@ -3,7 +3,17 @@ import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./ControlledCarousel.css";
 
-function ControlledCarousel({ title1, title2, title3, title4, title5, title6, text1, text2, text3, text4, text5, text6}) {
+function ControlledCarousel({
+    title1,
+    title2,
+    title3,
+    text1,
+    text2,
+    text3,
+    image1,
+    image2,
+    image3,
+}) {
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {
@@ -15,7 +25,7 @@ function ControlledCarousel({ title1, title2, title3, title4, title5, title6, te
             <Carousel.Item>
                 <img
                     className="home-image-carousel d-block w-100"
-                    src="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0608%2Fr1343454_1296x518_5%2D2.jpg&w=1256&h=502&scale=crop&cquality=40&location=center&format=jpg"
+                    src={image1}
                     alt="First slide"
                 />
                 <Carousel.Caption>
@@ -26,7 +36,7 @@ function ControlledCarousel({ title1, title2, title3, title4, title5, title6, te
             <Carousel.Item>
                 <img
                     className="home-image-carousel d-block w-100"
-                    src="https://media.formula1.com/image/upload/f_auto,c_limit,w_960,q_auto/t_16by9South/f_auto/q_auto/trackside-images/2023/F1_Grand_Prix_of_Canada/1499540822  "
+                    src={image2}
                     alt="Second slide"
                 />
                 <Carousel.Caption>
@@ -37,48 +47,12 @@ function ControlledCarousel({ title1, title2, title3, title4, title5, title6, te
             <Carousel.Item>
                 <img
                     className="home-image-carousel d-block w-100"
-                    src="https://cdn.nba.com/manage/2024/06/brown-guarding-irving-game-1.jpg?w=1470&h=826"
+                    src={image3}
                     alt="Third slide"
                 />
                 <Carousel.Caption>
                     <h3>{title3}</h3>
                     <p>{text3}</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            
-            {/* Carrusel para News */}
-
-            <Carousel.Item>
-                <img
-                    className="home-image-carousel d-block w-100"
-                    src="https://cdn.nba.com/manage/2024/06/brown-guarding-irving-game-1.jpg?w=1470&h=826"
-                    alt="Third slide"
-                />
-                <Carousel.Caption>
-                    <h3>{title4}</h3>
-                    <p>{text4}</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="home-image-carousel d-block w-100"
-                    src="https://cdn.nba.com/manage/2024/06/brown-guarding-irving-game-1.jpg?w=1470&h=826"
-                    alt="Third slide"
-                />
-                <Carousel.Caption>
-                    <h3>{title5}</h3>
-                    <p>{text5}</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="home-image-carousel d-block w-100"
-                    src="https://cdn.nba.com/manage/2024/06/brown-guarding-irving-game-1.jpg?w=1470&h=826"
-                    alt="Third slide"
-                />
-                <Carousel.Caption>
-                    <h3>{title6}</h3>
-                    <p>{text6}</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
