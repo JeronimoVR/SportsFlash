@@ -24,6 +24,7 @@ function CardContainer({cardsData}) {
                             <CardComponent
                                 cardImage={card.cardImage}
                                 cardTitle={card.cardTitle}
+                                cardSubtitle={card.cardSubtitle}
                                 cardText={card.cardText}
                                 cardButton={card.cardButton}
                             />
