@@ -2,6 +2,7 @@ import React from "react";
 import ControlledCarousel from "../../components/ControlledCarousel/ControlledCarousel";
 import SportIcon from "../../components/SportIcon/SportIcons";
 import CardContainer from "../../components/CardContainer";
+import ArticleComponent from "../../components/ControlledArticle/ArticleComponent";
 import "./News.css";
 
 const carouselInfo = [
@@ -82,7 +83,11 @@ function News() {
                 ))}
             </div>
             {/* Tarjetas */}
+            <br />
             <CardContainer cardsData={newsCardsData1} />
+            <Titulo />
+            {/* Fútbol */}
+            <MainContent />
         </div>
     );
 }

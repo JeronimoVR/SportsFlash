@@ -13,4 +13,28 @@
     padding: 20px;
     gap: 20px;
   }
+
+  .banner {
+    width: 100%;
+    height: 200px;
+    color: #007bff;
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+    padding: 86px;
+  }
+  
+  .banner img {
+    max-width: 200px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+  }
+  
+  .banner h1 {
+    margin: 0;
+    font-size: 32px;
+    text-align: left;
+  }
+
   
