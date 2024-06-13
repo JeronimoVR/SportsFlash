@@ -85,9 +85,9 @@ function News() {
             {/* Tarjetas */}
             <br />
             <CardContainer cardsData={newsCardsData1} />
-            <Titulo />
+            {/* <Titulo /> */}
             {/* Fútbol */}
-            <MainContent />
+            {/* <MainContent /> */}
         </div>
     );
 }

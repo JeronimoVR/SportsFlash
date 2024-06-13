@@ -98,7 +98,7 @@ function Home() {
 
             {/* Video */}
             <h2 className="h2-title">Destacados</h2>
-           <VideoComponent urlVideo={urlVideo} /> 
+           <VideoComponent urlVideo={urlVideo} classStyle={'video-container'} nameVideo={'ESPN video'}/> 
 
             {/* Tarjetas */}
             <h2 className="h2-title">Más Noticias</h2>
