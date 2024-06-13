@@ -46,7 +46,15 @@ function Basketball() {
     return (
         <div>
             <h2 className="h2-title magic-pattern">Baloncesto</h2>
-            <SportSection noticias={noticias} questions={questions} />
+            <SportSection
+                noticias={noticias}
+                questions={questions}
+                urlVideo={"https://www.youtube.com/embed/bc8QjKhyHxw"}
+                titleVideo={"Game Recap: Celtics 105, Mavericks 98"}
+                typeAlert={"success"}
+                messageAlert={"Actualidad: Victoria de los Boston Celtics"}
+                titleSection={"NBA 2024"}
+            />
         </div>
     );
 }
