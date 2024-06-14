@@ -11,12 +11,12 @@ const questions = [
         body: "Red Bull y Ferrari son considerados los favoritos para el campeonato de constructores, gracias a su dominio en la temporada 2023. Max Verstappen y Charles Leclerc son los principales candidatos para el título de pilotos, pero pilotos como Sergio Pérez, Carlos Sainz, Lewis Hamilton y George Russell también podrían ser fuertes competidores.",
     },
     {
-        header: "¿Qué jugadores jóvenes están emergiendo como futuras estrellas en el ATP Tour 2024?",
-        body: "La temporada 2023 fue un gran año para las estrellas #NextGenATP, con Arthur Fils y Hamad Medjedovic consiguiendo victorias destacadas en eventos de nivel Tour.",
+        header: "¿Qué equipo ha sorprendido en la temporada 2024 con su rendimiento?",
+        body: "En la temporada 2024, el equipo Mclaren ha sorprendido a todos con su rendimiento excepcional, logrando varios podios y victorias inesperadas gracias a mejoras significativas en su monoplaza y estrategias de carrera inteligentes.",
     },
     {
-        header: "¿Quien es el jugador con mejor ranking de Colombia?",
-        body: "Actualmente Daniel Galan es el jugador con mejor ranking de Colombia, ocupando el puesto 115 en el ranking ATP.",
+        header: "¿Quien es el piloto con más puntos en la carrera por el titulo?",
+        body: "Actualmente el piloto con más puntos en la carrera por el título es Max Verstappen, quien ha logrado una ventaja significativa sobre sus rivales gracias a su consistencia y velocidad en pista. Sin embargo, la lucha por el campeonato sigue abierta y cualquier cosa puede pasar en las próximas carreras.",
     },
 ];
 

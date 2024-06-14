@@ -126,31 +126,31 @@ const Titulo3 = () => {
     );
 };
 
-const Titulo4 = () => {
-    return (
-        <div className="banner">
-            <div className="image-container">
-                <img src="./images/image.jpg" alt="Flecha-Titulos" />
-            </div>
-            <div className="text-container">
-                <h1>Moto GP</h1>
-            </div>
-        </div>
-    );
-};
+// const Titulo4 = () => {
+//     return (
+//         <div className="banner">
+//             <div className="image-container">
+//                 <img src="./images/image.jpg" alt="Flecha-Titulos" />
+//             </div>
+//             <div className="text-container">
+//                 <h1>Moto GP</h1>
+//             </div>
+//         </div>
+//     );
+// };
 
-const Titulo5 = () => {
-    return (
-        <div className="banner">
-            <div className="image-container">
-                <img src="./images/image.jpg" alt="Flecha-Titulos" />
-            </div>
-            <div className="text-container">
-                <h1>Baloncesto</h1>
-            </div>
-        </div>
-    );
-};
+// const Titulo5 = () => {
+//     return (
+//         <div className="banner">
+//             <div className="image-container">
+//                 <img src="./images/image.jpg" alt="Flecha-Titulos" />
+//             </div>
+//             <div className="text-container">
+//                 <h1>Baloncesto</h1>
+//             </div>
+//         </div>
+//     );
+// };
 
 const MainContent = () => (
     <main>
