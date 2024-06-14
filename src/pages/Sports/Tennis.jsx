@@ -40,16 +40,7 @@ const noticias = [
             "El torneo de Wimbledon homenajeará a Andy Murray, dos veces ganador, en la que puede ser la última participación en el Grand Slam sobre césped del británico.",
     },
 ];
-<iframe
-    width="681"
-    height="383"
-    src="https://www.youtube.com/embed/17gnwLKKVZ0"
-    title="¡HISTÓRICO: ALCARAZ SE CONSAGRÓ EN ROLAND GARROS Y COSECHA TRES GRAND SLAMS A SUS 21 AÑOS! | RESUMEN"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-></iframe>;
+
 function Tennis() {
     return (
         <div>
