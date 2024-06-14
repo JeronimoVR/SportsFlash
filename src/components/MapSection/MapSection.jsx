@@ -7,7 +7,7 @@ const MapSection = () => {
       <h2>Nuestra Ubicación</h2>
       <iframe
         title="Ubicación"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126915.41029363598!2d-74.0060156!3d40.7127281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250bd5b729a9f%3A0x8a7d60a5b02a1836!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1623443430977!5m2!1sen!2s"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.667339320617!2d-74.08227038513994!3d4.710988996536977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a06d6a7a7f%3A0xf2d88b20f498ae5a!2sBogotá%2C%20Colombia!5e0!3m2!1sen!2s!4v1623443430977!5m2!1sen!2s"
         width="600"
         height="450"
         allowFullScreen=""
