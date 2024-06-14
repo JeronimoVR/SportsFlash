@@ -32,27 +32,27 @@ function FooterComponent() {
                         <ul className="list-unstyled">
                             <li>
                                 <a href="https://es-la.facebook.com/">
-                                    <FaFacebookSquare fill="gray" />
+                                    <FaFacebookSquare fill="gray" /> @Sport_News
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/">
-                                    <FaInstagram fill="gray" />
+                                    <FaInstagram fill="gray" /> @SportNews
                                 </a>
                             </li>
                             <li>
                                 <a href="https://x.com/?mx=2">
-                                    <FaXTwitter fill="gray" />
+                                    <FaXTwitter fill="gray" /> @Sport__News
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.youtube.com/">
-                                    <FaYoutube fill="gray" />
+                                    <FaYoutube fill="gray" /> SportNews
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.tiktok.com/es/">
-                                    <FaTiktok fill="gray" />
+                                    <FaTiktok fill="gray" /> @Sport-News
                                 </a>
                             </li>
                         </ul>

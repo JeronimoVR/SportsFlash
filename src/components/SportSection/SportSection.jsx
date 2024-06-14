@@ -4,7 +4,7 @@ import CardAside from "../CardAside/CardAside";
 import "./SportSection.css";
 import AccordionComponent from "../AccordionComponent/AccordionComponent";
 
-function SportSection({ noticias, questions,urlVideo,titleVideo,typeAlert, messageAlert,titleSection}) {
+function SportSection({noticias, questions,urlVideo,titleVideo,typeAlert, messageAlert,titleSection}) {
     return (
         <section className="sport-section">
             <div className="video-section">

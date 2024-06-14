@@ -1,0 +1,14 @@
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-section label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section button {
+  margin-top: 10px;
+}
